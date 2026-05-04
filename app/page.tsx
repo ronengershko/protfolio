@@ -1,3 +1,5 @@
+import DigitalTwinChat from "./components/DigitalTwinChat";
+
 const careerHighlights = [
   {
     value: "2+",
@@ -306,6 +308,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <DigitalTwinChat />
     </main>
   );
 }
